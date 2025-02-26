@@ -19,7 +19,9 @@ const Users = () => {
                 open={visableCreate}
                 onClose={() => setVisableCreate(false)}
                 title = 'Cadastrar'
+                
             >
+                <h1>Aqui vai ser o formulário para adicionar um novo usuário</h1>
             </Drawer>
         </>
     );
