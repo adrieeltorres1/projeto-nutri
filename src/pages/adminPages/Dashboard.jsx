@@ -1,7 +1,16 @@
+import { Button } from "antd";
+
 const Dashboard = () => {
     return (
         <>
-            Dashboard
+            <h1 className="flex justify-between items-center">
+                Dashboard 
+                <Button 
+                className="" 
+                type="primary">
+                Novo Usuário
+                </Button>
+            </h1>
         </>
     );
 }
